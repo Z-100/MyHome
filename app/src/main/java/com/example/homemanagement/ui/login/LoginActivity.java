@@ -23,6 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.homemanagement.R;
+import com.example.homemanagement.restclient.GetRestResponse;
 import com.example.homemanagement.ui.login.LoginViewModel;
 import com.example.homemanagement.ui.login.LoginViewModelFactory;
 import com.example.homemanagement.databinding.ActivityLoginBinding;
@@ -125,6 +126,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
+        GetRestResponse grp = new GetRestResponse();
+
+        System.out.println(grp.execute());
+
+
         String welcome = getString(R.string.welcome) + model.getDisplayName();
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();

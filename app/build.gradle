@@ -28,6 +28,15 @@ android {
     buildFeatures {
         viewBinding true
     }
+
+    packagingOptions {
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICe'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/INDEX.LIST'
+    }
 }
 
 dependencies {
@@ -38,7 +47,18 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
-    testImplementation 'junit:junit:4.+'
+    implementation 'androidx.work:work-runtime:2.5.0'
+
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    testImplementation 'junit:junit:5'
+
+    implementation 'org.springframework.android:spring-android-rest-template:1.0.1.RELEASE'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.5'
+    implementation 'io.vertx:vertx-core:3.5.3'
+
+    compileOnly "org.projectlombok:lombok:1.18.22"
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
 }

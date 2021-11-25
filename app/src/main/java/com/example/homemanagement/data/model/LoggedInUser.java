@@ -1,23 +1,12 @@
 package com.example.homemanagement.data.model;
 
-/**
- * Data class that captures user information for logged in users retrieved from LoginRepository
- */
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data //TODO Update email
+@AllArgsConstructor
 public class LoggedInUser {
 
-    private String userId;
-    private String displayName;
-
-    public LoggedInUser(String userId, String displayName) {
-        this.userId = userId;
-        this.displayName = displayName;
-    }
-
-    public String getUserId() {
-        return userId;
-    }
-
-    public String getDisplayName() {
-        return displayName;
-    }
+    private final String eMailAddress;
+    private final String displayName;
 }
