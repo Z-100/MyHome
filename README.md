@@ -1,8 +1,8 @@
 # :house: MyHome
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fz-100%2FMyHome&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-![Frontend commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-android-app)
-![Backend commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-backend)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fz-100%2FMyHome&count_bg=%23B600B6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Total+Views&edge_flat=false)](https://hits.seeyoufarm.com)
+![commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-android-app)
+![commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-backend)
 
 ## ***For the developers***
 - ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) [The Android "front-end" application](https://github.com/Z-100/MyHome-Android-App)
