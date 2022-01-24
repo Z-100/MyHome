@@ -7,31 +7,33 @@
 ## ***For the developers***
 - ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) [The Android "front-end" application](https://github.com/Z-100/MyHome-Android-App)
 - ![Springboot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) [The Springboot-Java "back-end" application](https://github.com/Z-100/MyHome-Backend)
-## 📖 Description
-MyHome is a management app for your house, in which You can choose in between various different rooms, each with their own ***customizable*** properties and actions!
-<br />
-You could for example create a room called "kitchen", in which you can add..
-* ..recipes
-* ..meals
-* or check the contents of your fridge
+
+## The documentation
+
+### The Concept
+Long story short, the basic concept was to code two separate components, which then could be combined: A [REST-API](https://github.com/Z-100/MyHome-Backend) in the backend, working together with our database running in MariaDB and an [Android App](https://github.com/Z-100/MyHome-Android-App) in the frontend with a good, userfriendly and especially easy-to-understand UI, displaying the information gotten from the backend via an API call. <br />
+
+Our actual concept started with the design of an ERM (more at "The Planning"), which was the base of the entire backend and later on also the front end (ResponseEntities). <br/>
+During the course of this project, I heavily adjusted our in the beginning made ERM: I decided to scrape one feature completely (Items in room, which was there to showcase where-which-item was), but added a connection in between Item and house in order to keep the balance of Ying-Yang (Remove one feature, Add one feature).<br/>
+Some of the tables also were edited completely, to fit more into the scheme of my backend.
 
 
-# 💡 Features
-* Manage your home
-  * By splitting everything up into different rooms
-  * Adding actions, ideas and much more
-# 🔮 Stuff for the future
-* Create own rooms
-  * As many as you want!
-* Create own tasks in your rooms
-* Pictures
-  * Profile picture
-  * Custom thumbnails
-  * etc.
+### The design
+The design of both the Front- and Backend were pretty simple.
 
-## 🌐 Languages
-To have the app accessible around all the world we try our best to add as many languages as possible!<br />
-Currently planned are..:
-- 🇬🇧 English
-- 🇩🇪 German
-- 🇷🇴 Romanian
+### The planning 
+Technically, the planning already has began, before M226b even started! The idea of a home management app also isn't anything new, so we had to have some really good ideas and create some really nice features if we wanted to even stand a chance to compete on the market. <br />
+In other words: Code something good and functioning in the duration of this module, which can be easily extended. And so we did: <br />
+We started by having a little backlog grooming in M153, before we started creating our ERM, which would then later be my blueprint to work on. We both had ideas, some of which were good, others just impossible to implement in that short amount of time or also just ***really*** idiodic.. <br />
+
+
+### The test protocol
+As already discussed in the project of [M226a](https://github.com/Z-100/M226a_miniproject), The whole testing process can, was and will (be) done again with the usage of JUnit, in combination of Mockito, to replace the requirement of "Use-Case-Testing".
+<br /> <br />
+If we are still required to deliver a such grotesque form of test cases, here's an example on how [I](https://github.com/z-100) tested everything belonging to the backend:
+
+| To be tested | Expected | Result |
+|:----------------:|:--------------:|:-------------:|
+| The request of ".../member/get-members" | A json object containing all the members belonging to an account with all the information about a member (excluding foreign keys from other tables pointing on a particular member) | A json object containing all the members belonging to an account with all the information about a member (excluding foreign keys from other tables pointing on a particular member) |
+| The password validation service | True up on entering the correct login information, false up on entering the incorrect login information | True up on entering the correct login information, false up on entering the incorrect login information |
+| The token validation service | True up on entering the correct email and token, false up on entering the incorrect email and token | True up on entering the correct email and token, false up on entering the incorrect email and token |
