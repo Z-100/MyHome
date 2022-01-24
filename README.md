@@ -9,6 +9,7 @@
 - ![Springboot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) [The Springboot-Java "back-end" application](https://github.com/Z-100/MyHome-Backend)
 
 ## The documentation
+***This documentation was written by [Z-100](https://github.com/z-100)***. Words like "me" or "I", are referencing ***me***.
 
 ### The Concept
 Long story short, the basic concept was to code two separate components, which then could be combined: A [REST-API](https://github.com/Z-100/MyHome-Backend) in the backend, working together with our database running in MariaDB and an [Android App](https://github.com/Z-100/MyHome-Android-App) in the frontend with a good, userfriendly and especially easy-to-understand UI, displaying the information gotten from the backend via an API call. <br />
@@ -30,7 +31,7 @@ We started by having a little backlog grooming in M153, before we started creati
 ### The test protocol
 As already discussed in the project of [M226a](https://github.com/Z-100/M226a_miniproject), The whole testing process can, was and will (be) done again with the usage of JUnit, in combination of Mockito, to replace the requirement of "Use-Case-Testing".
 <br /> <br />
-If we are still required to deliver a such grotesque form of test cases, here's an example on how [I](https://github.com/z-100) tested everything belonging to the backend:
+If we are still required to deliver a such grotesque form of test cases, here's an example on how I tested everything belonging to the backend:
 
 | To be tested | Expected | Result |
 |:----------------:|:--------------:|:-------------:|
