@@ -20,7 +20,7 @@ Some of the tables also were edited completely, to fit more into the scheme of m
 
 
 ### The design
-The design of both the Front- and Backend were pretty simple.
+The design of both the Front- and Backend were pretty simple. The RESTapi is designed to be extended easily and was planned by creating a [Use-Case Diagram](https://github.com/Z-100/MyHome/tree/main/Diagrams/usecase). The best fitting description for the designing process would be the following: "Klein, aber fein"!
 
 ### The planning 
 Technically, the planning already has began, before M226b even started! The idea of a home management app also isn't anything new, so we had to have some really good ideas and create some really nice features if we wanted to even stand a chance to compete on the market. <br />
