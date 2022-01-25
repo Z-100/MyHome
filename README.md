@@ -15,17 +15,26 @@
 Long story short, the basic concept was to code two separate components, which then could be combined: A [REST-API](https://github.com/Z-100/MyHome-Backend) in the backend, working together with our database running in MariaDB and an [Android App](https://github.com/Z-100/MyHome-Android-App) in the frontend with a good, userfriendly and especially easy-to-understand UI, displaying the information gotten from the backend via an API call. <br />
 
 Our actual concept started with the design of an ERM (more at "The Planning"), which was the base of the entire backend and later on also the front end (ResponseEntities). <br/>
-During the course of this project, I heavily adjusted our in the beginning made ERM: I decided to scrape one feature completely (Items in room, which was there to showcase where-which-item was), but added a connection in between Item and house in order to keep the balance of Ying-Yang (Remove one feature, Add one feature).<br/>
-Some of the tables also were edited completely, to fit more into the scheme of my backend.
-
+During the course of this project, I heavily adjusted our, in the beginning created ERM: I decided to scrape one feature completely (Items in room, which was there to showcase, where which item was), but added a connection in between Item and house in order to keep the balance of Ying-Yang (Remove one feature, Add one feature).<br/>
+Some tables also were edited completely, to fit more into the scheme of my backend, without bigger complications (def. big complication: Unsolvable StackOverFlow Error). <br/><br/>
+The concept process wouldn't've been possible without the usage of certain diagrams like [this class diagram](https://github.com/Z-100/MyHome/blob/main/Diagrams/class/classdiagram-before-restapi.jpg) or the far more important [sketch](https://github.com/Z-100/MyHome/blob/main/Diagrams/sketch/rough-sketch-restapi.png), which I used to find where to even start anything!
+<br/> The [database's ERM](https://github.com/Z-100/MyHome/blob/main/Diagrams/sketch/detailed-sketch-db.jpg), which also has a [pre-alpha version](https://github.com/Z-100/MyHome/blob/main/Diagrams/sketch/rough-sketch-db.drawio), also was the blueprint to all the API-components.
 
 ### The design
-The design of both the Front- and Backend were pretty simple. The RESTapi is designed to be extended easily and was planned by creating a [Use-Case Diagram](https://github.com/Z-100/MyHome/tree/main/Diagrams/usecase). The best fitting description for the designing process would be the following: "Klein, aber fein"!
+The design of both the Front- and Backend were pretty simple. The RESTapi is designed, to be extended easily and was planned by creating a [Use-Case Diagram](https://github.com/Z-100/MyHome/tree/main/Diagrams/usecase/usecase-before-restapi.drawio). The best fitting description for the designing process would be the following: "Klein, aber fein"! <br/>
+This Use-Case diagram would later on be [changed "a bit"](https://github.com/Z-100/MyHome/tree/main/Diagrams/usecase/usecase-after-update-member.drawio) (def. "a bit", Completely, as everything has gotten more difficult than anyone could ever imagine). <br/><br/>
+The design of the front end app was done, by creating an [Activity Diagram](https://github.com/Z-100/MyHome/tree/main/Diagrams/usecase/activity-before-and-after-app.jpg), which continuously was being extended
 
 ### The planning 
 Technically, the planning already has began, before M226b even started! The idea of a home management app also isn't anything new, so we had to have some really good ideas and create some really nice features if we wanted to even stand a chance to compete on the market. <br />
 In other words: Code something good and functioning in the duration of this module, which can be easily extended. And so we did: <br />
-We started by having a little backlog grooming in M153, before we started creating our ERM, which would then later be my blueprint to work on. We both had ideas, some of which were good, others just impossible to implement in that short amount of time or also just ***really*** idiodic.. <br />
+We started by having a little backlog grooming in M153, before we started creating our [ERM](https://github.com/Z-100/MyHome/blob/main/Diagrams/sketch/detailed-sketch-db.jpg), which would then later be my blueprint to work on. 
+We both had ideas, some of which were good, others just impossible to implement in that short amount of time or also just ***really*** idiodic.. <br />
+<br>
+The planing basically is a compilation of the concept and design:
+We created lots of diagrams, had lots of ideas, started doing stuff, which mostly wasn't working, e.g...
+<br>
+For example: I started coding a response service with the springframework in the frontend, but this was changed to volley by andy.
 
 
 ### The test protocol
