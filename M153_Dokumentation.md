@@ -95,3 +95,6 @@ Whilst coding, we also started the finishing-up process, by removing irrelevant 
 
 #### 25.01.22
 As everything already was finished, we didn't really have anything to do... Yes
+
+## Reflexion
+Overall, this project was pretty fun to do for the two of us! We both learned a lot about using MariaDB and Workbench in a "professional" application.
