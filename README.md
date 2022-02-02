@@ -8,7 +8,7 @@
 - ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) [The Android "front-end" application](https://github.com/Z-100/MyHome-Android-App)
 - ![Springboot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) [The Springboot-Java "back-end" application](https://github.com/Z-100/MyHome-Backend)
 
-# The documentation (Coding)
+# The documentation
 ***This documentation was written by [Z-100](https://github.com/z-100)***. Words like "me" or "I", are referencing ***me***.
 
 ### The Concept
@@ -48,7 +48,7 @@ If we are still required to deliver a such grotesque form of test cases, here's 
 | The password validation service | True up on entering the correct login information, false up on entering the incorrect login information | True up on entering the correct login information, false up on entering the incorrect login information |
 | The token validation service | True up on entering the correct email and token, false up on entering the incorrect email and token | True up on entering the correct email and token, false up on entering the incorrect email and token |
 
-
+<br/><br/>
 # The database
 
 ## Important documents and where to find them
