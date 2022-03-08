@@ -1,12 +1,13 @@
 # :house: MyHome
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fz-100%2FMyHome&count_bg=%23B600B6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Total+Views&edge_flat=false)](https://hits.seeyoufarm.com)
-![commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-android-app)
-![commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-backend)
+![commit activity frontend](https://img.shields.io/github/commit-activity/m/z-100/MyHome-android-app)
+![Commit activity backend](https://img.shields.io/github/commit-activity/m/z-100/MyHome-backend)
 
 ## ***For the developers***
 - [The Android Mobile Application](https://github.com/Z-100/MyHome-Mobile)
 - [The Springboot RESTful API](https://github.com/Z-100/MyHome-Backend)
+- [The old _archived_ repository](https://github.com/z-100/MyHome-Android-App)
 
 # The documentation
 ***This documentation was written by [Z-100](https://github.com/z-100)***. Words like "me" or "I", are referencing ***me***.
