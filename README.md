@@ -5,8 +5,8 @@
 ![commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-backend)
 
 ## ***For the developers***
-- ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) [The Android "front-end" application](https://github.com/Z-100/MyHome-Android-App)
-- ![Springboot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) [The Springboot-Java "back-end" application](https://github.com/Z-100/MyHome-Backend)
+- [The Android "front-end" application](https://github.com/Z-100/MyHome-Mobile)
+- [The Springboot-Java "back-end" application](https://github.com/Z-100/MyHome-Backend)
 
 # The documentation
 ***This documentation was written by [Z-100](https://github.com/z-100)***. Words like "me" or "I", are referencing ***me***.
