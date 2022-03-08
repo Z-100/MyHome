@@ -5,8 +5,8 @@
 ![commit activity](https://img.shields.io/github/commit-activity/m/z-100/MyHome-backend)
 
 ## ***For the developers***
-- [The Android "front-end" application](https://github.com/Z-100/MyHome-Mobile)
-- [The Springboot-Java "back-end" application](https://github.com/Z-100/MyHome-Backend)
+- [The Android Mobile Application](https://github.com/Z-100/MyHome-Mobile)
+- [The Springboot RESTful API](https://github.com/Z-100/MyHome-Backend)
 
 # The documentation
 ***This documentation was written by [Z-100](https://github.com/z-100)***. Words like "me" or "I", are referencing ***me***.
