@@ -1,11 +1,10 @@
 # Documentation M120
-## The plan
-idk
+
 ## What we want to achive in this project
 | Criteria | Points | Status |
 |:----|:-:|:-:|
 | Programme wurden hinsichtlich der Erfüllung der Ergonomie-Standards beurteilt. Die Beurteilungen werden begründet. | 1 | 🔴 |
-| Die Menüstruktur oder Benutzerführung von verschiedenen Programmen/Websites wurde aufgezeigt und kommentiert. | 1 | 🔴 |
+| [Die Menüstruktur oder Benutzerführung von verschiedenen Programmen/Websites wurde aufgezeigt und kommentiert](#Menu-Structure) | 1 | 🔴 |
 | Verschiedene Standards für die Gestaltung von Benutzeroberflächen wurden beschrieben und ihre Bedeutung kommentiert. | 1 | 🔴 |
 | Sie haben einen Style Guide für Ihre Applikation(en) erstellt | 1 | 🔴 |
 | "Sie haben auf Basis der nachfolgend definierten WebSite das Vorgehen beim UX Design mit eigenen Worten beschrieben. https://bit.ly/2LhxRm4" | 1 | 🔴 |
@@ -24,3 +23,6 @@ idk
 | Sie haben eine Empfehlung für den Test einer Anwendung mit Benutzeroberfläche erstellt (mit Berücksichtigung der Standards) | 1 | 🔴 |
 | Sie haben ein Protokoll über den Test Ihrer Applikation erstellt. | 1 | 🔴 |
 | Sie haben die Verwendung eines GUI Testing-Tools dokumentiert. | 1 | 🔴 |
+
+## Menu Structure
+idk
