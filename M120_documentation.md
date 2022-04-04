@@ -27,6 +27,18 @@
 
 ## 10 rules of good design
 
+| The rule | What it means | Our remarks |
+|:--|:--|:--|
+| Make Everything the used needs readily accesible | An organized structure of e.g. menu items. The user has to be able to find everything in a max. of three clicks. | Not to find something in a few clicks/seconds can be frustrating and motivates the user to leave the application quicker. |
+| Be Consistent | E.g. Menu items should be placed at the same place on every page: Don't change the location of the searchbar from top to bottom when changing pages. | The user has to learn how the application works. This is really hard to do if every page has a different layout. |
+| Be Clear | No user should be confused whilst using an application. | Not too many but also not too less features should be available for the user at any time. |
+| Give Feedback | Buttons should change their shape/colour when pressed. On-success: Show popup; This cheers up the user. Loading pages are incredibly less boring when showing some kind of moving gears. | The user should be given indications on what's going on, whilst they are using an application. |
+| Use Recognition, Not Recall | Use recognizable icons, as images are being remembered more, than an overly complicated slogan. | The application should be recognized, by just looking at a logo |
+| Choose How People Will interact First | Humans are based on patterns. If something works against those patterns, most poeple will recognize that feeling as "annoying"  | If a building requires the customers to open two doors to enter, both doors should open in the same direction. |
+| Follow design standards | This basically is the same as the fact above: If a user excpects a certain part to look the same on every website / in every application. This part should look the same on every website / in every application. | A button should look and act like a button. Most doors look and work the same way everywhere. You don't see cars with  |
+| Elemental Hierarchy matters |  |  |
+| Keep Your Users Free & in Control |  |  |
+
 ## HIG-comparison
 
 ## Corporate design
