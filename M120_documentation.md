@@ -1,48 +1,87 @@
-# Documentation M120
+# App specific documentation M120
 
-## App specific documentation
+## Ergonomic developement
 
-### Ergonomic developement
+## Style guide
 
-### Style guide
+## Our own UX
 
-### Our own UX
+## Mockups and sketches
 
-### Mockups and sketches
+## MVC-based developement
 
-### MVC-based developement
+## Functional programming
 
-### Functional programming
+## Synched views
 
-### Synched views
+## Test protocol
 
-### Test protocol
-
-### GUI-testing tools
+## GUI-testing tools
 
 
-## General documentation
+# General documentation M120
 
-### Menu structure
+## Menu structure
 
-### Design standards
+## Design standards
 
-### 10 rules of good design
+## 10 rules of good design
 
-### HIG-comparison
+## HIG-comparison
 
-### Corporate design
+## Corporate design
 
-### Accesibility
+## Accesibility
 
-### (Dis)advnatages layering
+## (Dis)advnatages layering
 
-### MVC documented
+Layering is the splitting of certain parts of an application / software, to ensure better maintainability... <br />
+This "splitting" is achieved by parting the application into an "n-tier"-app. Mostly, there's a _backend-_, _frontend-_ and a _databaselayer_. <br />
+This specific distribution of layers in an application is called a Three-Tier-Architecture, as there are three layers.. <br />
+This ensures, in theorie, that the client _(frontend)_ can **not** access any information it shouldn't be able to.
 
-### Recommended test-cases
+### Comp
+
+| Advantages | Disadvantage |
+|:--|:--|
+| More scalability | Increased effort |
+| Data integrety | Increased complexity |
+| Redused distribution (Increased Maintainability) | More things can (and will) break |
+
+### Advantages
+
+#### More scalability & Data integrity
+
+Over all the scalability of the entire is massivley being increased. <br />
+You can not only have the database being connected once to the backend services, which also greatly increases security, but you also can e.g. add more pages to a website without having to implement everything twice in the backend. <br />
+This also means there is less duplicated code, which also means the application consists of [higher quality code](#increased-maintainability)!
+
+#### Increased Maintainability
+
+As an application is getting bigger and more complex over time, the code's quality is getting more important each commit. <br />
+Therefore a split-up application is very important, as the distribution of everything (code, data, ...) is lessend: <br />
+The database layer should not be integrated into the frontend, as the user does not need to have access to the other users' data. That's only one, but very imporant reason, to keep everything separated.
+
+### Disadvantages
+
+#### Increased effort & Complexity
+
+On the turn side, the effort required to even have the base of a small application working, is tremendously being risen. <br />
+Everything needs to be separated. Everything needs more logic. [More parts can break](#more-breaking-parts). More parts means more maintenance... <br />
+
+#### More breaking parts
+
+This disadvantage could goes hand-in-hand with the increased maintainability: <br />
+Because of a higher comlexity, the application has more connections in between the parts, which means that more connections can break. <br />
+But because of this, the breaking parts are more isolated and the issue can be addressed more quickly.
 
 
-## What we want to achive in this project
+## MVC documented
+
+## Recommended test-cases
+
+
+# What we want to achive in the project of M120
 | Criteria | Points | Status |
 |:----|:-:|:-:|
 | [Programme wurden hinsichtlich der Erfüllung der Ergonomie-Standards beurteilt. Die Beurteilungen werden begründet](#Ergonomic-developement) | 1 | 🔴 |
