@@ -114,9 +114,9 @@ Accessibility is the right thing to do. Providing accessible sites is part of th
   - ...
  <br />
 These are just some of the groups, there are others, and depending to whomst your app is aimed at, you might want to take different approaches and different accessibility standards into consideration
-<br />
-<br />
-**Some examples for addaptment to Accessibility in Programming might be:**
+
+
+**Some examples for addaptment to Accessibility in Programming might be:**<br />
   - Colorblind mode. In which visual impairment is addressed by working with different colors.
   - Speak Text Aloud. The device reads the text on the screen aloud so that people with visual impairment can know what is on their screen.
   - For people with hearing impairments, most websites offer subtitles to what is being read aloud. For most cases they are turned on automatically, like in games         where a task is described, or if an app takes you on a tour of itsself. For some apps, you might have to turn them on, for example Youtube.
