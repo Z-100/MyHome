@@ -123,15 +123,15 @@ Some examples for Accessibility in Programming might be:
   - For people with hearing impairments, most websites offer subtitles to what is being read aloud. For most cases they are turned on automatically, like in games         where a task is described, or if an app takes you on a tour of itsself. For some apps, you might have to turn them on, for example Youtube.
   - For people with mobility impairments, it is important to make buttons an appropriate size. For devices like phones, some apps might want to offer voice to text         features, in which the person can talk what they want to write instead of writing it on the tiny mobile phone keyboard. Voice assistants usually offer this             kind of feature to reply to messages received.
   - Persons with cognitive impairments cover a wide variaty of people with different sicknesses. The implementation of Accessibility for this group might not be           obvious at first sight, here are some guidelines to hold on to to help this group of people gain accessibility to your app:
-        - Delivering content in more than one way, such as by text-to-speech or by video.
-        - Easily understood content, such as text written using plain-language standards.
-        - Focusing attention on important content.
-        - Minimizing distractions, such as unnecessary content or advertisements.
-        - Consistent webpage layout and navigation.
-        - Familiar elements, such as underlined links blue when not visited and purple when visited.
-        - Dividing processes into logical, essential steps with progress indicators.
-        - Website authentication as easy as possible without compromising security.
-        - Making forms easy to complete, such as with clear error messages and simple error recovery.
+        - Delivering content in more than one way, such as by text-to-speech or by video. <br />
+        - Easily understood content, such as text written using plain-language standards. <br />
+        - Focusing attention on important content. <br />
+        - Minimizing distractions, such as unnecessary content or advertisements. <br />
+        - Consistent webpage layout and navigation. <br />
+        - Familiar elements, such as underlined links blue when not visited and purple when visited. <br />
+        - Dividing processes into logical, essential steps with progress indicators. <br />
+        - Website authentication as easy as possible without compromising security. <br />
+        - Making forms easy to complete, such as with clear error messages and simple error recovery. <br />
 
   - For persons with slow internet, you can offer something like Youtube does, lowering the quality of the video to reduce bandwith, thus being able to consume your       application at lesser quality, but not having to leave it.
   - In general you want to have clean code that makes things happen as fast as they can, doing this is important for exactly the category that is slow devices.
