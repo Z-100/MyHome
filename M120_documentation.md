@@ -1,5 +1,5 @@
 # Documentation M120
-
+This document concludes the entire documentation for the M120. <br /><br />
 # Ergo & Std
 
 ## Style guide
