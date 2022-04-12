@@ -95,16 +95,15 @@ You might also think of accessibility as treating everyone the same, and giving 
 
 Accessibility is the right thing to do. Providing accessible sites is part of the law in some countries, which can open up some significant markets that otherwise would not be able to use your services or buy your products.
 
-Building accessible sites benefit everyone:
 
+**Building accessible sites benefit everyone:**
   - Semantic HTML, which improves accessibility, also improves SEO, making your site more findable.
   - Caring about accessibility demonstrates good ethics and morals, which improves your public image.
   - Other good practices that improve accessibility also make your site more usable by other groups, such as mobile phone users or those on low network speed. In fact,     everyone can benefit from many such improvements.
   - In some places this is actually mandated by law.
 
 
-What kinds of disability are we looking at?:
-
+**What kinds of disability are we looking at?:**
   - People with visual impairments
   - People with hearing impairments
   - People with mobility impairments
@@ -113,16 +112,16 @@ What kinds of disability are we looking at?:
   - Slow Device
   - Reduced Device Screen Size
   - ...
+ 
 These are just some of the groups, there are others, and depending to whomst your app is aimed at, you might want to take different approaches and different accessibility standards into consideration
 
 
-Some examples for Accessibility in Programming might be:
-
+**Some examples for addaptment to Accessibility in Programming might be:**
   - Colorblind mode. In which visual impairment is addressed by working with different colors.
   - Speak Text Aloud. The device reads the text on the screen aloud so that people with visual impairment can know what is on their screen.
   - For people with hearing impairments, most websites offer subtitles to what is being read aloud. For most cases they are turned on automatically, like in games         where a task is described, or if an app takes you on a tour of itsself. For some apps, you might have to turn them on, for example Youtube.
   - For people with mobility impairments, it is important to make buttons an appropriate size. For devices like phones, some apps might want to offer voice to text         features, in which the person can talk what they want to write instead of writing it on the tiny mobile phone keyboard. Voice assistants usually offer this             kind of feature to reply to messages received.
-  - Persons with cognitive impairments cover a wide variaty of people with different sicknesses. The implementation of Accessibility for this group might not be           obvious at first sight, here are some guidelines to hold on to to help this group of people gain accessibility to your app:
+  - Persons with cognitive impairments cover a wide variaty of people with different sicknesses. The implementation of Accessibility for this group might not be           obvious at first sight, here are some guidelines to hold on to to help this group of people gain accessibility to your app: <br />
         - Delivering content in more than one way, such as by text-to-speech or by video. <br />
         - Easily understood content, such as text written using plain-language standards. <br />
         - Focusing attention on important content. <br />
@@ -132,7 +131,7 @@ Some examples for Accessibility in Programming might be:
         - Dividing processes into logical, essential steps with progress indicators. <br />
         - Website authentication as easy as possible without compromising security. <br />
         - Making forms easy to complete, such as with clear error messages and simple error recovery. <br />
-
+       
   - For persons with slow internet, you can offer something like Youtube does, lowering the quality of the video to reduce bandwith, thus being able to consume your       application at lesser quality, but not having to leave it.
   - In general you want to have clean code that makes things happen as fast as they can, doing this is important for exactly the category that is slow devices.
   - For people with reduced screen size, for example a phone, you will want to design your website or app so that it is responsive. Maybe you will want to offer a         mobile only application.
