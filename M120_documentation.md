@@ -193,7 +193,7 @@ But because of this, the breaking parts are more isolated and the issue can be a
 | [Sie haben die Human Interface Guidelines (HIG) für Windows/Linux/Apple miteinander verglichen](#hig-comparison) | 1 | 🟡 |
 | [Sie erläutern anhand von Beispielen, wie das Corporate Design Ihrer/einer Firma aussieht und umgesetzt wird](#Corporate-design) | 1 | 🟡 |
 | [Sie erläutern, was unter Barrierefreiheit zu verstehen ist und geben Beispiele für die Umsetzung](#Accessibility) | 1 | 🟡 |
-| [Spezielles] | 1 | 🔴 |
+| [Spezielles] |    |   |
 | [Vor- und Nachteile einer Trennung von Präsentations- und Anwendungslogik wurden erläutert](#(Dis)advantages-layering) | 1 | 🟡 |
 | [Für eine selbstgewählte Applikation wurden Skizzen/Mockups erstellt und erläutert](#Mockups-and-sketches) | 1 | 🟡 |
 | [Die Anwendung des MVC-Patterns (oder MVVM, MVP) bei einer bestehenden (eigenen oder fremden) Anwendung wurde aufgezeigt und kommentiert](#MVC-documented) | 2 | 🔴 |
