@@ -179,7 +179,7 @@ Insert GUI testing tool
 | Ergo & Std |
 | [Sie haben einen Style Guide für Ihre Applikation(en) erstellt](#style-guide) | 1 | 🟢 |
 | ["Sie haben eine Zusammenfassung der Punkte und Erklärungen zum Video ""10 Rules of Good UI Design to follow"" erstellt und kommentiert. https://www.youtube.com/watch?v=RFv53AxxQAo"](#10-rules-of-good-design) | 1 | 🟢 |
-| [Sie haben die Human Interface Guidelines (HIG) für Windows/Linux/Apple miteinander verglichen](#hig-comparison) | 1 | 🟡 |
+| [Sie haben die Human Interface Guidelines (HIG) für Windows/Linux/Apple miteinander verglichen](#hig-comparison) | 1 | 🔵 |
 | [Sie erläutern anhand von Beispielen, wie das Corporate Design Ihrer/einer Firma aussieht und umgesetzt wird](#corporate-design) | 1 | 🟢 |
 | [Sie erläutern, was unter Barrierefreiheit zu verstehen ist und geben Beispiele für die Umsetzung](#accessibility) | 1 | 🟢 |
 | DP & IF |||
