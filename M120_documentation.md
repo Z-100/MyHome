@@ -1,34 +1,13 @@
-# App specific documentation M120
+# Documentation M120
 
-## Ergonomic development
+## Ergo & Std
 
 ## Style guide
 
-Style guide of our application:
+### Our application's Style Guide
 
 ![StyleGuide](https://user-images.githubusercontent.com/68548148/162922338-a4c0fd0a-338d-4673-91c1-136bb2815b0d.PNG)
 
-
-## Our own UX
-
-## Mockups and sketches
-
-## MVC-based development
-
-## Functional programming
-
-## Synced views
-
-## Test protocol
-
-## GUI-testing tools
-
-
-# General documentation M120
-
-## Menu structure
-
-## Design standards
 
 ## 10 rules of good design
 
@@ -43,6 +22,7 @@ Style guide of our application:
 | Follow design standards | This basically is the same as the fact above: If a user expects a certain part to look the same on every website / in every application. This part should look the same on every website / in every application. | A button should look and act like a button. Most doors look and work the same way everywhere. You don't see cars with  |
 | Elemental Hierarchy matters | It's important, that the user can start their navigation on the most important feature. E.g. don't show the ingredients before the user can even see the title of what they are cooking | A top-down hierarchy is very important, as most things in the real world work like that and most people can and will understand this kind of logic. |
 | Keep Your Users Free & in Control | At least let the user _feel_, that they're in charge of what is happening with their product. Let the user have an undo-, resp. a redo-button. | Being restricted limits the workflow.|
+
 
 ## HIG-comparison
 
@@ -67,6 +47,7 @@ This ignorance of the HIG can lead to a war between the developers and the OS-ma
 |:--|:--|:--|
 ||||
 
+
 ## Corporate design
 
 Corporate Design of Generali:
@@ -84,7 +65,6 @@ The Lion of St. Mark stands as a statue on Piazza San Marco in Venice – the bi
 For a Corporate Design, one of the most important things is to describe what you want to achieve, to show people your values. Genearli has a text explaining that on the page above. The text is aimed to get everyone on board with your vision of where the company should go. It is important to describe everything very humbly and influence people to get on board with what your company stands for. As a big Firm, Generali have a lot of ressources and experiences. Thus, they could show some videos too, to get everyone to empathize with them. Showing their nice side and the success of Generali will further make people want to support the cause. You can see they have grown to the point where they not only provide insurance to make money, but they also support sportsmen and women, and invest in charities that help situations in poorer country. Even though it might seem like they're only doing it out of the kindness of their heart. Part of the reason they're doing it is to make the brand look better, and attract more customers by setting some good values and making people emphatize.
 
 It is important to also have a good, eye pleasing design. If you start off with your corporate design, that will have an influence on the looks of your whole company. For example the Generali logo. It shows up everywhere, on their buildings, on their websites, on their customers letters and so on. So it is important to chose something taht actually matters. Even the color is important, as you can see on the Generali main website. The whole site is the same color as the logo, keeping up the theme that was set in the corporate design.
-
 
 
 ## Accessibility
@@ -134,6 +114,8 @@ These are just some of the groups, there are others, and depending to whomst you
   - In general you want to have clean code that makes things happen as fast as they can, doing this is important for exactly the category that is slow devices.
   - For people with reduced screen size, for example a phone, you will want to design your website or app so that it is responsive. Maybe you will want to offer a         mobile only application.
 
+## 
+## DP & IF
 
 ## (Dis)advantages layering
 
@@ -177,30 +159,39 @@ This disadvantage goes hand-in-hand with the increased maintainability: <br />
 Because of a higher complexity, the application has more connections in between the parts, which means that more connections can break. <br />
 But because of this, the breaking parts are more isolated and the issue can be addressed more quickly.
 
-## MVC documented
 
-## Recommended test-cases
+### Mockups and sketches
+Insert mockups and sketches
+
+
+### Functional programming
+onClick()
+
+##
+## Testing
+
+### Recommended test cases
+Insert GUI / API Testcases
+
+### Test protocol
+Insert MyHome test protocol
+
+### GUI testing tool
 
 # What we want to achieve in the project of M120
 | Criteria | Points | Status |
 |:----|:-:|:-:|
-| [Programme wurden hinsichtlich der Erfüllung der Ergonomie-Standards beurteilt. Die Beurteilungen werden begründet](#Ergonomic-development) | 1 | 🔴 |
-| [Die Menüstruktur oder Benutzerführung von verschiedenen Programmen/Websites wurde aufgezeigt und kommentiert](#Menu-structure) | 1 | 🔴 |
-| [Verschiedene Standards für die Gestaltung von Benutzeroberflächen wurden beschrieben und ihre Bedeutung kommentiert](#Design-standards) | 1 | 🔴 |
-| [Sie haben einen Style Guide für Ihre Applikation(en) erstellt](#Style-guide) | 1 | 🟢 |
-| ["Sie haben auf Basis der nachfolgend definierten WebSite das Vorgehen beim UX Design mit eigenen Worten beschrieben. https://bit.ly/2LhxRm4"](#Our-own-UX) | 1 | 🔴 |
-| ["Sie haben eine Zusammenfassung der Punkte und Erklärungen zum Video ""10 Rules of Good UI Design to follow"" erstellt und kommentiert. https://www.youtube.com/watch?v=RFv53AxxQAo"](#10-rules-of-good-design) | 1 | 🟡 |
+| Ergo & Std |
+| [Sie haben einen Style Guide für Ihre Applikation(en) erstellt](#style-guide) | 1 | 🟢 |
+| ["Sie haben eine Zusammenfassung der Punkte und Erklärungen zum Video ""10 Rules of Good UI Design to follow"" erstellt und kommentiert. https://www.youtube.com/watch?v=RFv53AxxQAo"](#10-rules-of-good-design) | 1 | 🟢 |
 | [Sie haben die Human Interface Guidelines (HIG) für Windows/Linux/Apple miteinander verglichen](#hig-comparison) | 1 | 🟡 |
-| [Sie erläutern anhand von Beispielen, wie das Corporate Design Ihrer/einer Firma aussieht und umgesetzt wird](#Corporate-design) | 1 | 🟡 |
-| [Sie erläutern, was unter Barrierefreiheit zu verstehen ist und geben Beispiele für die Umsetzung](#Accessibility) | 1 | 🟡 |
-| [Spezielles] |    |   |
-| [Vor- und Nachteile einer Trennung von Präsentations- und Anwendungslogik wurden erläutert](#(Dis)advantages-layering) | 1 | 🟡 |
-| [Für eine selbstgewählte Applikation wurden Skizzen/Mockups erstellt und erläutert](#Mockups-and-sketches) | 1 | 🟡 |
-| [Die Anwendung des MVC-Patterns (oder MVVM, MVP) bei einer bestehenden (eigenen oder fremden) Anwendung wurde aufgezeigt und kommentiert](#MVC-documented) | 2 | 🔴 |
-| [Eine Anwendung wurde auf Basis des MVC-/MVVM-Patterns entwickelt](#mvc-based-development) | 4 | 🔴 |
-| [Der Ablauf bei der Ereignisverarbeitung wurde aufgezeigt und anhand eines Beispielprogramms umgesetzt](#Functional-programming) | 2 | 🔴 |
-| [Eine ereignisbasierte Anwendung wurde entwickelt](#Functional-programming) | 4 | 🔴 |
-| [Synchronisation zwischen unterschiedlichen Views wurde umgesetzt](#synced-views) | 1 | 🔴 |
+| [Sie erläutern anhand von Beispielen, wie das Corporate Design Ihrer/einer Firma aussieht und umgesetzt wird](#corporate-design) | 1 | 🟢 |
+| [Sie erläutern, was unter Barrierefreiheit zu verstehen ist und geben Beispiele für die Umsetzung](#accessibility) | 1 | 🟢 |
+| DP & IF |||
+| [Vor- und Nachteile einer Trennung von Präsentations- und Anwendungslogik wurden erläutert](#(dis)advantages-layering) | 1 | 🟢 |
+| [Für eine selbstgewählte Applikation wurden Skizzen/Mockups erstellt und erläutert](#mockups-and-sketches) | 1 | 🟢 |
+| [Eine ereignisbasierte Anwendung wurde entwickelt](#functional-programming) | 4 | 🟡 |
+| Testing |||
 | [Sie haben eine Empfehlung für den Test einer Anwendung mit Benutzeroberfläche erstellt (mit Berücksichtigung der Standards)](#recommended-test-cases) | 1 | 🔴 |
-| [Sie haben ein Protokoll über den Test Ihrer Applikation erstellt](#Test-protocol) | 1 | 🔴 |
-| [Sie haben die Verwendung eines GUI Testing-Tools dokumentiert](#recommended-test-cases) | 1 | 🔴 |
+| [Sie haben ein Protokoll über den Test Ihrer Applikation erstellt](#test-protocol) | 1 | 🔴 |
+| [Sie haben die Verwendung eines GUI Testing-Tools dokumentiert](#gui-testing-tool) | 1 | 🔴 |
