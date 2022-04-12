@@ -4,6 +4,11 @@
 
 ## Style guide
 
+Style guide of our application:
+
+![StyleGuide](https://user-images.githubusercontent.com/68548148/162922338-a4c0fd0a-338d-4673-91c1-136bb2815b0d.PNG)
+
+
 ## Our own UX
 
 ## Mockups and sketches
