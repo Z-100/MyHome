@@ -94,7 +94,7 @@ Accessibility is the practice of making your websites usable by as many people a
 You might also think of accessibility as treating everyone the same, and giving them equal opportunities, no matter what their ability or circumstances. Just as it is wrong to exclude someone from a physical building because they are in a wheelchair (modern public buildings generally have wheelchair ramps or elevators), it is also not right to exclude someone from a website because they have a visual impairment. We are all different, but we are all human, and therefore have the same human rights.
 
 Accessibility is the right thing to do. Providing accessible sites is part of the law in some countries, which can open up some significant markets that otherwise would not be able to use your services or buy your products.
-
+<br />
 
 **Building accessible sites benefit everyone:**
   - Semantic HTML, which improves accessibility, also improves SEO, making your site more findable.
@@ -102,7 +102,7 @@ Accessibility is the right thing to do. Providing accessible sites is part of th
   - Other good practices that improve accessibility also make your site more usable by other groups, such as mobile phone users or those on low network speed. In fact,     everyone can benefit from many such improvements.
   - In some places this is actually mandated by law.
 
-
+<br />
 **What kinds of disability are we looking at?:**
   - People with visual impairments
   - People with hearing impairments
@@ -112,10 +112,10 @@ Accessibility is the right thing to do. Providing accessible sites is part of th
   - Slow Device
   - Reduced Device Screen Size
   - ...
- 
+ <br />
 These are just some of the groups, there are others, and depending to whomst your app is aimed at, you might want to take different approaches and different accessibility standards into consideration
-
-
+<br />
+<br />
 **Some examples for addaptment to Accessibility in Programming might be:**
   - Colorblind mode. In which visual impairment is addressed by working with different colors.
   - Speak Text Aloud. The device reads the text on the screen aloud so that people with visual impairment can know what is on their screen.
