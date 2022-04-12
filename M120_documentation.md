@@ -64,6 +64,24 @@ This ignorance of the HIG can lead to a war between the developers and the OS-ma
 
 ## Corporate design
 
+Corporate Design of Generali:
+https://www.generali.ch/en/allgemein/ueber-uns/marke
+
+The whole of Corporate Design is based around the identity of the firm, and what it strives to achieve.  
+As the first example we're going to take a look at Andrei's firm Generali. Find the link to their corporate design above.
+
+
+You can see that the whole of the Corporate Design starts with the Logo. That is mainly with what you're usually going to start. The whole Logo has a meaning. In the case of Generali, the reasons are as following (described on their website):
+
+Mark stands for strong values. It embodies strength and protection.
+The Lion of St. Mark stands as a statue on Piazza San Marco in Venice – the birthplace of “Assicurazioni Generali”.
+
+For a Corporate Design, one of the most important things is to describe what you want to achieve, to show people your values. Genearli has a text explaining that on the page above. The text is aimed to get everyone on board with your vision of where the company should go. It is important to describe everything very humbly and influence people to get on board with what your company stands for. As a big Firm, Generali have a lot of ressources and experiences. Thus, they could show some videos too, to get everyone to empathize with them. Showing their nice side and the success of Generali will further make people want to support the cause. You can see they have grown to the point where they not only provide insurance to make money, but they also support sportsmen and women, and invest in charities that help situations in poorer country. Even though it might seem like they're only doing it out of the kindness of their heart. Part of the reason they're doing it is to make the brand look better, and attract more customers by setting some good values and making people emphatize.
+
+It is important to also have a good, eye pleasing design. If you start off with your corporate design, that will have an influence on the looks of your whole company. For example the Generali logo. It shows up everywhere, on their buildings, on their websites, on their customers letters and so on. So it is important to chose something taht actually matters. Even the color is important, as you can see on the Generali main website. The whole site is the same color as the logo, keeping up the theme that was set in the corporate design.
+
+
+
 ## Accessibility
 
 ## (Dis)advantages layering
