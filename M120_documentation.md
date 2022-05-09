@@ -38,12 +38,17 @@ Developers however often times tend to break those HIG, as they think the HIG ar
 This ignorance of the HIG can lead to a war between the developers and the OS-manufacturers:
 - Apple for example just does not approve any apps into their App Store, which go against their HIG.
 - The GNOME-distribution does not include Firefox in their OS by default, as Firefox' layout does not match the GNOME-HIG
+- Windows...? That's just a whole mess by itself.
 - And other countless wars...
 
 
 | Linux (GNU) | Windows (Win32) | macOS (Catalina) |
 |:--|:--|:--|
-||||
+| App naming: 2 simple nouns | / | / |
+| In hierarchical navigation, a parent view provides links to multiple sub-views. The parent view can be a grid of images or a list, and each sub-view can be either a secondary window or a different view which is shown in the same window as the parent. Moving between parent and sub-view is accomplished with browsing. | A top-level window has no owner window and is displayed on the taskbar. Examples: application windows. In Windows Vista and later, dialog boxes without owner windows and property sheets are also considered top-level. | Presents content and functions that aren’t document-related. The primary window in an app is considered the main app window. |
+| /, as the user can do whatever they want to anyway | Min Screen resolution: 800px x 600ox | Min Screen resolution: 800px x 600ox |
+| /, as the user can do whatever they want to anyway | Close. All primary and secondary windows with a standard window frame should have a Close button on the title bar. Clicking Close has the effect of canceling or closing the window. | The title bar resides at the top of a window and includes options for closing, minimizing, and zooming (or expanding to full-screen mode) the window.  |
+| As every app with sudo rights can edit anything anytime it wants to: The best security is to be a good Linuxian | Security is associated with communication channels. | Avoid relying solely on passwords for authentication. Take advantage of other technologies like Touch ID, which lets users authenticate with a fingerprint. For developer guidance, see LocalAuthentication. |
 
 ## Corporate design
 
