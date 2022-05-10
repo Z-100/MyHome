@@ -164,7 +164,7 @@ But because of this, the breaking parts are more isolated and the issue can be a
 Insert mockups and sketches
 
 ## Functional programming
-onClick()
+Implemented [here](https://github.com/z-100/myhome-mobile)
 
 
 # Testing
@@ -173,10 +173,70 @@ onClick()
 Insert GUI / API Testcases
 
 ### Test protocol
-Insert MyHome test protocol
+## Login page
+| Tested component | Expected result | Actual result | Passed |
+|:--|:--|:--|:--|
+| Login: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Login: Correct info entered | Logged into account<br/>Token & E-Mail saved to device, which can be retrieved again | Logged into account<br/>Token & E-Mail saved to device, which can be retrieved again | :heavy_check_mark: |
+| Login: Incorrect info entered | Error displaying with reasoning | Error displaying with reasoning | :heavy_check_mark: |
+
+## Register page
+| Tested component | Expected result | Actual result | Passed |
+|:--|:--|:--|:--|
+| Register: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Register: Correct info entered | Logged into account<br/>Token & E-Mail saved to device, which can be retrieved again<br/>New account in backend | Logged into account<br/>Token & E-Mail saved to device, which can be retrieved again<br/>New account in backend | :heavy_check_mark: |
+| Register: Incorrect info entered | Error displaying with reasoning | Error displaying with reasoning | :heavy_check_mark: |
+
+## Members page
+| Tested component | Expected result | Actual result | Passed |
+|:--|:--|:--|:--|
+| Members: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Members: Click on member | User logged into correct member<br/>Redirected to dashboard | User logged into correct member<br/>Redirected to dashboard | :heavy_check_mark: |
+
+## Static pages
+| Tested component | Expected result | Actual result | Passed |
+|:--|:--|:--|:--|
+| Dashboard: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Kitchen: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Rooms: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Settings: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Delete account: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Change password: Viewing page | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+
+## Navbar
+| Tested component | Expected result | Actual result | Passed |
+|:--|:--|:--|:--|
+| Navbar top: Viewing navbar | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Navbar top: Pressing buttons | Redirected correctly | Redirected correctly | :heavy_check_mark: |
+| Navbar bottom: Viewing navbar | Information displayed correctly | Information displayed correctly | :heavy_check_mark: |
+| Navbar bottom: Pressing buttons | Redirected correctly | Redirected correctly | :heavy_check_mark: |
+
 
 ### GUI testing tool
-Insert GUI testing tool
+For the sake of this project, we used espresso. <br/>
+Espresso is a free library, which can be used to test any frontend component to their limit:
+* It's possible to simulate...
+  * ...clicks, which can simulate button presses
+    * ...even doubleClicks and long clicks (press and hold)
+  * ...text operations, which can simulate text entered by the user
+  * ...text validations, which can, as you might be expecting, validate text
+  * ...open links
+  * ...close the keyboard
+  * ...scroll to certain areas
+  * ...all kinds of swipe directions:
+    * ...up, down, left, right
+* Other things it can do, are...
+  * ...validate the existance of components by their id
+  * ...check the satus of a component
+    * ...It's displayed status
+    * ...It's enabled status
+    * ...It's focuesd status
+    * ...It's checked status
+    * ...It's selected status
+  * ...check hints of certain components
+  * ...
+As you can see, it's pretty much. All these functionalities would've been impossible to implement in this timeframe. <br/>
+That's why we've only implemented a bunch of those features.
 
 # Our goals
 | Criteria | Points | Status |
@@ -184,14 +244,13 @@ Insert GUI testing tool
 | Ergo & Std |
 | [Sie haben einen Style Guide für Ihre Applikation(en) erstellt](#style-guide) | 1 | 🟢 |
 | ["Sie haben eine Zusammenfassung der Punkte und Erklärungen zum Video ""10 Rules of Good UI Design to follow"" erstellt und kommentiert. https://www.youtube.com/watch?v=RFv53AxxQAo"](#10-rules-of-good-design) | 1 | 🟢 |
-| [Sie haben die Human Interface Guidelines (HIG) für Windows/Linux/Apple miteinander verglichen](#hig-comparison) | 1 | 🔵 |
+| [Sie haben die Human Interface Guidelines (HIG) für Windows/Linux/Apple miteinander verglichen](#hig-comparison) | 1 | 🟢 |
 | [Sie erläutern anhand von Beispielen, wie das Corporate Design Ihrer/einer Firma aussieht und umgesetzt wird](#corporate-design) | 1 | 🟢 |
 | [Sie erläutern, was unter Barrierefreiheit zu verstehen ist und geben Beispiele für die Umsetzung](#accessibility) | 1 | 🟢 |
 | DP & IF |||
 | [Vor- und Nachteile einer Trennung von Präsentations- und Anwendungslogik wurden erläutert](#(dis)advantages-layering) | 1 | 🟢 |
 | [Für eine selbstgewählte Applikation wurden Skizzen/Mockups erstellt und erläutert](#mockups-and-sketches) | 1 | 🟢 |
-| [Eine ereignisbasierte Anwendung wurde entwickelt](#functional-programming) | 4 | 🟡 |
+| [Eine ereignisbasierte Anwendung wurde entwickelt](#functional-programming) | 4 | 🟢 |
 | Testing |||
-| [Sie haben eine Empfehlung für den Test einer Anwendung mit Benutzeroberfläche erstellt (mit Berücksichtigung der Standards)](#recommended-test-cases) | 1 | 🔴 |
-| [Sie haben ein Protokoll über den Test Ihrer Applikation erstellt](#test-protocol) | 1 | 🔴 |
-| [Sie haben die Verwendung eines GUI Testing-Tools dokumentiert](#gui-testing-tool) | 1 | 🔴 |
+| [Sie haben ein Protokoll über den Test Ihrer Applikation erstellt](#test-protocol) | 1 | 🟢 |
+| [Sie haben die Verwendung eines GUI Testing-Tools dokumentiert](#gui-testing-tool) | 1 | 🟢 |
